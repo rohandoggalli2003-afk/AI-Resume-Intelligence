@@ -14,7 +14,7 @@ from src.report_generator import create_analysis_report
 # ============================================================
 
 st.set_page_config(
-    page_title="AI Resume Intelligence",
+    page_title="AI Resume Intelligence & Job Matching System",
     page_icon="📄",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -260,8 +260,7 @@ with st.sidebar:
 # ============================================================
 
 st.markdown('<div class="hero-wrap">', unsafe_allow_html=True)
-st.markdown('<div class="hero-kicker">Generative AI · NLP · Semantic Matching</div>', unsafe_allow_html=True)
-st.title("AI Resume Intelligence")
+st.title("AI Resume Intelligence & Job Matching System")
 st.markdown(
     '<div class="hero-copy">Evaluate a resume against a target role, understand job fit, identify skill gaps, and generate actionable improvement suggestions from one dashboard.</div>',
     unsafe_allow_html=True,
@@ -698,4 +697,3 @@ elif selected_section == "Report":
 # ============================================================
 
 st.divider()
-st.caption("AI Resume Intelligence · Python · Streamlit · NLP · Generative AI · Semantic Matching")
